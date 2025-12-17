@@ -1,0 +1,117 @@
+<!DOCTYPE html><html lang="uz">
+<head>
+<meta charset="UTF-8">
+<title>8-klass Informatika </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+  body{background:#fff;color:#333;overflow-x:hidden;}.slide{ width:100vw; height:100vh; display:none; align-items:center; justify-content:center; text-align:center; position:relative; padding:40px; background: linear-gradient(135deg, #fff 60%, #ff4f4f 40%); } .slide.active{display:flex;animation:fadeSlide 1s ease-in;}
+
+.content{ max-width:900px; padding:40px; background:rgba(255,255,255,0.9); border-radius:30px; animation:zoomIn 1s ease-in; }
+
+h1{font-size:42px;margin-bottom:20px;color:#c70039;} h2{font-size:36px;margin-bottom:20px;color:#c70039;} p,li{font-size:20px;line-height:1.7;color:#333;} ul{text-align:left;margin-top:15px;}
+
+.image{ position:absolute; left:20px; bottom:20px; width:150px; height:auto; border-radius:15px; box-shadow:0 8px 20px rgba(0,0,0,0.25); animation:fadeImage 1.2s; }
+
+.nav{ position:fixed; bottom:10px; left:50%; transform:translateX(-50%); display:flex; gap:20px; }
+
+button{ width:55px; height:55px; border:none; border-radius:50%; background:#c70039; color:white; font-size:22px; cursor:pointer; transition:0.3s; } button:hover{transform:scale(1.1);}
+
+@keyframes fadeSlide{from{opacity:0;transform:translateY(40px);}to{opacity:1;transform:translateY(0);}} @keyframes zoomIn{from{transform:scale(0.7);opacity:0;}to{transform:scale(1);opacity:1;}} @keyframes fadeImage{from{opacity:0;transform:translateX(-30px);}to{opacity:1;transform:translateX(0);}} </style>
+
+</head>
+<body><!-- Slide 1 --><div class="slide active">
+  <div class="content">
+    <h1>Web Dizayn</h1>
+    <p> Sayt dizaynın saylaw</p>
+  </div>
+  <img src="suwret1.jpg" alt="Oq Rasm 1" class="image">
+</div><!-- Slide 2 --><div class="slide">
+  <div class="content">
+    <h2>Dizayn nima?</h2>
+    <p> Web dizaynda sayttıń sırtqı kórinisin hám qolaylılıǵın jaratıw áhmiyetli bolıp esaplanadı. </p>
+  </div>
+  <img src="suwret2.jpg" alt="Qizil Rasm 2" class="image">
+</div><!-- Slide 3 --><div class="slide">
+  <div class="content">
+    <h2>Reń, shrift hám jaylastırıw</h2>
+    <ul>
+      <li>Reńler - ingliz tilindegi awdarmaları yamasa kod arqalı beriledi</li>
+      <li>Shriftler tema hám tekstke qarap ózgeredi hám saylanadı</li>
+      <li>Video, súwret hám tekstlerdiń durıs jaylasıwı sayttıń sapasın arttıradı</li>
+    </ul>
+  </div>
+  <img src="suwret3.jpg" alt="Oq Rasm 3" class="image">
+</div><!-- Slide 4 --><div class="slide">
+  <div class="content">
+    <h2>Fon reńi</h2>
+    <p>Fon reńin saylawda sayt temasına hám tekstlerge áhmiyet beriw kerek</p>
+  </div>
+  <img src="suwret4.jpg" alt="Qizil Rasm 4" class="image">
+</div><!-- Slide 5 --><div class="slide">
+  <div class="content">
+    <h2>Tegler</h2>
+    <ul>
+      <li>b tegi tekstlerdi qalıń jazıwǵa aylandırıp beredi</li>
+      <li>u tegi tekstlerdiń astın sızıp beredı</li>
+      <li>i tegi tekstlerdi qıya qılıp beredi</li>
+    </ul>
+  </div>
+  <img src="suwret5.jpg" alt="Oq Rasm 5" class="image">
+</div><!-- Slide 6 --><div class="slide">
+  <div class="content">
+    <h2>Atributlar</h2>
+    <ul>
+      <li>Hár bir teg style atributı arqalı óz stiline iye boladı</li>
+      <li>Tekstlerge font sózi menen dizayn beriledi(font-family, font-size, )</li>
+      <li>Fonǵa background-color atributı járdeminde dizayn beriledi</li>
+    </ul>
+  </div>
+  <img src="suwret6.jpg" alt="Qizil Rasm 6" class="image">
+</div><!-- Slide 7 --><div class="slide">
+  <div class="content">
+    <h2>Trenddegi shriftlar</h2>
+    <ul>
+      <li>Roboto</li>
+      <li>Open Sans</li>
+      <li>Inter</li>
+      <li>Montserrat</li>
+      <li>Poppins</li>
+    </ul>
+  </div>
+  <img src="suwret7.jpg" alt="Oq Rasm 7" class="image">
+</div><!-- Slide 8 --><div class="slide">
+  <div class="content">
+    <h2>Trenddegi reńler</h2>
+    <ul>
+      <li>Neytral reńler- Krem reń, kúl reń</li>
+      <li>Tábiyat reńleri - Jasıl, kók </li>
+      <li>Qarańǵı reńler - Dark gray </li>
+      <li>Gradientler - Purple</li>
+</ul>
+  </div>
+  <img src="suwret8.jpg" alt="Qizil Rasm 8" class="image">
+</div><!-- Slide 9 --><div class="slide">
+  <div class="content">
+    <h2>Jaylastırıw</h2>
+    <p>Jaylastırıw atributları: left,right, center. Tekst jaylastırıw ushın text-align atributı qollanıladı.</p>
+  </div>
+  <img src="oq_rasm9.jpg" alt="Oq Rasm 9" class="image">
+</div><!-- Slide 10 --><div class="slide">
+  <div class="content">
+    <h2>Juwmaq</h2>
+    <p>Sayt jaratıwda dizayn áhmiyetli</p>
+  </div>
+  <img src="suwret1.jpg" alt="Qizil Rasm 10" class="image">
+</div><div class="nav">
+  <button onclick="prev()">◀</button>
+  <button onclick="next()">▶</button>
+</div><script>
+  const slides=document.querySelectorAll('.slide');
+  let i=0;
+  function show(){slides.forEach(s=>s.classList.remove('active'));slides[i].classList.add('active');}
+  function next(){if(i<slides.length-1){i++;show();}}
+  function prev(){if(i>0){i--;show();}}
+</script></body>
+</html>
